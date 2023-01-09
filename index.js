@@ -163,8 +163,7 @@ function searchCar(){
             <img src="${dt.image}" class="card-img-top" alt="car Photo">
             <div class="card-body">
             <h5 class="card-title">${dt.make} - ${dt.model}</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                    the
+                <p class="card-text">Available
                     card's content.</p>
             </div>  
         </div>
