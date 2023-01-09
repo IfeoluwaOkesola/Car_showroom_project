@@ -29,8 +29,8 @@
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button id="searchButton" class="btn btn-outline-success" type="submit"  onclick="searchCar">Search</button>
             </form>
           </div>
         </div>
@@ -80,14 +80,25 @@
             <h4>Our Cars</h4>
             <h6>Best car dealers in town</h6>
         </div>
-        <div class="row"></div>
+        <div class="row"  id="carlist"></div>
       </div>
       <style>
         .container-fluid{
             padding-left: 0px;
             padding-right: 0px;
         }
+
+        #button {
+          display: none;
+        }
       </style>
+
+      <script>
+
+
+
+
+      </script>
     <script src="index.js"></script>
 </body>
 </html>
